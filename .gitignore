@@ -1,0 +1,208 @@
+### To regenerate/update:
+### sudo curl http://git.io/gibo -sLo /usr/local/bin/gibo && sudo chmod +x /usr/local/bin/gibo && sudo gibo -u
+### gibo Emacs vim SublimeText IntelliJ Python Scala Clojure Java Ruby Haskell Node SBT Leiningen Linux OSX >> .gitignore
+
+
+### /home/alex/.gitignore-boilerplates/Global/Emacs.gitignore
+
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+
+### /home/alex/.gitignore-boilerplates/Global/vim.gitignore
+
+.*.sw[a-z]
+*.un~
+Session.vim
+
+
+### /home/alex/.gitignore-boilerplates/Global/SublimeText.gitignore
+
+# SublimeText project files
+/*.sublime-project
+*.sublime-workspace
+
+
+### /home/alex/.gitignore-boilerplates/Global/IntelliJ.gitignore
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+
+### /home/alex/.gitignore-boilerplates/Python.gitignore
+
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+#Translations
+*.mo
+
+#Mr Developer
+.mr.developer.cfg
+
+
+
+### /home/alex/.gitignore-boilerplates/Scala.gitignore
+
+*.class
+*.log
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+
+### /home/alex/.gitignore-boilerplates/Clojure.gitignore
+
+pom.xml
+*jar
+/lib/
+/classes/
+.lein-deps-sum
+
+
+### /home/alex/.gitignore-boilerplates/Java.gitignore
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+
+### /home/alex/.gitignore-boilerplates/Ruby.gitignore
+
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+
+
+### /home/alex/.gitignore-boilerplates/Haskell.gitignore
+
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+.virthualenv
+
+
+### /home/alex/.gitignore-boilerplates/Node.gitignore
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+
+
+### /home/alex/.gitignore-boilerplates/Global/SBT.gitignore
+
+# SBT .gitignore
+# recommended: http://code.google.com/p/simple-build-tool/wiki/Setup#Version_Control
+
+target/
+lib_managed/
+src_managed/
+project/boot/
+
+### /home/alex/.gitignore-boilerplates/Leiningen.gitignore
+
+pom.xml
+*jar
+/lib/
+/classes/
+.lein-deps-sum
+
+
+### /home/alex/.gitignore-boilerplates/Global/Linux.gitignore
+
+.*
+!.gitignore
+*~
+
+# KDE
+.directory
+
+
+### /home/alex/.gitignore-boilerplates/Global/OSX.gitignore
+
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
