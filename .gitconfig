@@ -1,0 +1,5 @@
+[user]
+	name = Alexander Dean
+	email = alexander.dean@keplarllp.com
+[core]
+	excludesfile = /home/alex/.gitignore
