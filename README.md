@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-Dotfiles for Git, Emacs, Zsh
+Dotfiles for Git, Emacs, Zsh, SBT etc
