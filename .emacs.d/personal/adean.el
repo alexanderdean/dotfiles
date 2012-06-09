@@ -46,5 +46,8 @@
  '(speedbar-show-unknown-files t)
  )
 
+;; Switch speedbar back on if closed with 'q'
+(global-set-key (kbd "<f11>") 'speedbar)
+
 ;; Finally change the default theme
 (load-theme 'tango-dark t)
