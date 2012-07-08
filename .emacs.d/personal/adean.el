@@ -1,9 +1,3 @@
-; Making arrow keys work again
-(prelude-restore-arrow-keys)
-
-; Default to menu-bar visible (F12 to hide again)
-(menu-bar-mode 1)
-
 ; A more generous line-width
 (setq whitespace-line-column 120)
 
